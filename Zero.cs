@@ -1,3 +1,7 @@
+using System;
+
+namespace GaryGarage
+{
 public class Zero : Vehicle // Electric motorcycle
 {
     public double BatteryKWh { get; set; }
@@ -5,4 +9,5 @@ public class Zero : Vehicle // Electric motorcycle
     {
         // method definition omitted
     }
+}
 }

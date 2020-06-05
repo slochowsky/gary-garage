@@ -1,3 +1,7 @@
+using System;
+
+namespace GaryGarage
+{
 public class Ram : Vehicle // Gas powered truck
 {
     public double FuelCapacity { get; set; }
@@ -5,6 +9,7 @@ public class Ram : Vehicle // Gas powered truck
 
     public void RefuelTank()
     {
-        // method definition omitted
+         Console.WriteLine("skirttt");
     }
+}
 }

@@ -1,3 +1,7 @@
+using System;
+
+namespace GaryGarage
+{
 public class Tesla : Vehicle // Electric car
 {
     public double BatteryKWh { get; set; }
@@ -6,4 +10,5 @@ public class Tesla : Vehicle // Electric car
     {
         // method definition omitted
     }
+}
 }
