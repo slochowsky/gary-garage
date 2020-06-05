@@ -8,7 +8,7 @@ public class Tesla : Vehicle // Electric car
 
     public void ChargeBattery()
     {
-        // method definition omitted
+       Console.WriteLine("skirttt");
     }
 }
 }
